@@ -14,6 +14,11 @@
 		SpeedX = 0
 		SpeedY = 0
 	}
+	else if tilemap_get_at_pixel(door_tilemap, bboxside + SpeedX, bboxtb) != 0 {
+		if num == 0 {
+			generate_level()
+		}
+	}
 	x += SpeedX
 	y += SpeedY
 
