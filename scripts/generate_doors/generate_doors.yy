@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Room Generator.yy",
   },
   "resourceVersion": "1.0",
-  "name": "create_macros",
+  "name": "generate_doors",
   "tags": [],
   "resourceType": "GMScript",
 }

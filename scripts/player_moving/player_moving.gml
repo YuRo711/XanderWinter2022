@@ -14,7 +14,25 @@
 		SpeedX = 0
 		SpeedY = 0
 	}
-
+	else if tilemap_get_at_pixel(door_tilemap, bboxside + SpeedX, bboxtb) != 0 {
+		if num == 0 {
+			generate_level()
+		}
+	}
 	x += SpeedX
 	y += SpeedY
-}                     
+
+	if num == 0 {
+		if x != xprevious or y != yprevious {
+			for (var i = 30; i > 0; i -= 1) {
+				global.pos_x[i] = global.pos_x[i - 1]
+				global.pos_y[i] = global.pos_y[i - 1]
+			}
+			global.pos_x[0] = x
+			global.pos_y[0] = y
+		}
+	} else {
+		x = global.pos_x[10 * num]
+		y = global.pos_y[10 * num]
+	}
+}
