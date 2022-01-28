@@ -1,16 +1,22 @@
 {
   "resources": [
     {"id":{"name":"O_level","path":"objects/O_level/O_level.yy",},"order":0,},
+    {"id":{"name":"Direction","path":"scripts/Direction/Direction.yy",},"order":2,},
+    {"id":{"name":"O_battle_button_character","path":"objects/O_battle_button_character/O_battle_button_character.yy",},"order":3,},
+    {"id":{"name":"O_Character","path":"objects/O_Character/O_Character.yy",},"order":4,},
     {"id":{"name":"TS_wall_tiles","path":"tilesets/TS_wall_tiles/TS_wall_tiles.yy",},"order":0,},
     {"id":{"name":"R_battle_01","path":"rooms/R_battle_01/R_battle_01.yy",},"order":1,},
+    {"id":{"name":"player_moving","path":"scripts/player_moving/player_moving.yy",},"order":2,},
     {"id":{"name":"O_battle_button","path":"objects/O_battle_button/O_battle_button.yy",},"order":2,},
     {"id":{"name":"generate_level","path":"scripts/generate_level/generate_level.yy",},"order":1,},
+    {"id":{"name":"S_player","path":"sprites/S_player/S_player.yy",},"order":4,},
     {"id":{"name":"TS_floor_tiles","path":"tilesets/TS_floor_tiles/TS_floor_tiles.yy",},"order":1,},
     {"id":{"name":"O_battle_control","path":"objects/O_battle_control/O_battle_control.yy",},"order":1,},
     {"id":{"name":"S_button","path":"sprites/S_button/S_button.yy",},"order":3,},
     {"id":{"name":"S_wall_tiles","path":"sprites/S_wall_tiles/S_wall_tiles.yy",},"order":0,},
     {"id":{"name":"create_macros","path":"scripts/create_macros/create_macros.yy",},"order":0,},
     {"id":{"name":"S_floor_tiles","path":"sprites/S_floor_tiles/S_floor_tiles.yy",},"order":1,},
+    {"id":{"name":"O_player","path":"objects/O_player/O_player.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -28,8 +34,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R_battle_01","path":"rooms/R_battle_01/R_battle_01.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"R_battle_01","path":"rooms/R_battle_01/R_battle_01.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
