@@ -1,1 +1,1 @@
-Standart_stats();
+Stand_script(); 
