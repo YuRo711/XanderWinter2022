@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "RoomGenerator",
+    "path": "folders/Scripts/RoomGenerator.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Script1",
+  "name": "generate_level",
   "tags": [],
   "resourceType": "GMScript",
 }
