@@ -34,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "O_battle_button_character",
+  "name": "O_battle_button_action",
   "tags": [],
   "resourceType": "GMObject",
 }
