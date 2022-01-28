@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"S_character_2","path":"sprites/S_character_2/S_character_2.yy",},"order":1,},
     {"id":{"name":"O_level","path":"objects/O_level/O_level.yy",},"order":0,},
+    {"id":{"name":"S_character_1","path":"sprites/S_character_1/S_character_1.yy",},"order":0,},
     {"id":{"name":"Direction","path":"scripts/Direction/Direction.yy",},"order":2,},
     {"id":{"name":"O_battle_button_character","path":"objects/O_battle_button_character/O_battle_button_character.yy",},"order":3,},
     {"id":{"name":"O_Character","path":"objects/O_Character/O_Character.yy",},"order":4,},
@@ -53,6 +55,7 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/RoomGenerator.yy","order":1,"resourceVersion":"1.0","name":"RoomGenerator","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Characters.yy","order":5,"resourceVersion":"1.0","name":"Characters","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
