@@ -1,1 +1,2 @@
-Stand_script();
+battle_char_creation()
+traits = []

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Battle",
+    "path": "folders/Scripts/Battle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Stand_script",
+  "name": "begin_battle",
   "tags": [],
   "resourceType": "GMScript",
 }

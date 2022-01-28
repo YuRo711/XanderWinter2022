@@ -1,11 +1,9 @@
  function player_moving(){
-	input_up    = keyboard_check(vk_up)
-	input_down  = keyboard_check(vk_down)
-	input_right = keyboard_check(vk_right)
-	input_left  = keyboard_check(vk_left)
+	 
+	 Control()
 
-	SpeedX = (input_right - input_left) * v 
-	SpeedY = (input_down - input_up) * v
+	SpeedX = (dir_right - dir_left) * v 
+	SpeedY = (dir_down - dir_up) * v
 
 	if (SpeedX > 0) var bboxside = bbox_right; else var bboxside = bbox_left
 	if (SpeedY > 0) var bboxtb = bbox_bottom; else var bboxtb = bbox_top
