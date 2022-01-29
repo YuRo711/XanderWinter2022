@@ -1,1 +1,0 @@
-O_character_groop.character_2 = id;

@@ -1,3 +1,3 @@
- event_inherited();
- character = noone;
- button_layer = 1;
+event_inherited();
+character = noone;
+button_layer = 1;
