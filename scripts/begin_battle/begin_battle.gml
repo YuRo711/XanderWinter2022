@@ -4,6 +4,11 @@ function begin_battle(){
 		"fragile"]
 	randomize()
 	
+	//Hide party
+	for (var i = 0; i < global.number; i++) {
+		instance_find(O_player, i).visible = false
+	}
+	
 	//Generate enemies
 	enemies_number = irandom_range(max(1, global.number - 1), min(4, global.number + 1))
 	enemies = []
