@@ -6,3 +6,4 @@ function battle_char_creation(){
 	attack = 1
 	defence = 0
 }
+}
