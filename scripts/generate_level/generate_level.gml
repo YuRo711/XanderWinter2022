@@ -59,8 +59,8 @@ function generate_level() {
 	generate_doors()
 
 	//Draw the tiles 
-	for (var xx = 1; xx < width - 1; xx++) {
-		for (var yy = 1; yy < height - 1; yy++) {
+	for (var xx = 0; xx < width ; xx++) {
+		for (var yy = 0; yy < height ; yy++) {
 			if grid[xx, yy] == FLOOR {
 				tilemap_set(floor_map_id, 1, xx, yy)
 			}
@@ -68,13 +68,18 @@ function generate_level() {
 				tilemap_set(door_map_id, 1, xx, yy)
 			}
 			else {
-				var north_tile = (grid[xx, yy-1] == VOID)
-				var south_tile = (grid[xx, yy+1] == VOID)
-				var east_tile = (grid[xx+1, yy] == VOID)
-				var west_tile = (grid[xx-1, yy] == VOID)
+				if xx != 0 && xx != width - 1 && yy != 0 && yy != height - 1
+				{
+					var north_tile = (grid[xx, yy-1] == VOID)
+					var south_tile = (grid[xx, yy+1] == VOID)
+					var east_tile = (grid[xx+1, yy] == VOID)
+					var west_tile = (grid[xx-1, yy] == VOID)
 			
-				var wall_tile_index = 1 + NORTH*north_tile + SOUTH*south_tile + EAST*east_tile + WEST*west_tile
-				tilemap_set(wall_map_id, wall_tile_index, xx, yy)
+					var wall_tile_index = 1 + NORTH*north_tile + SOUTH*south_tile + EAST*east_tile + WEST*west_tile
+					tilemap_set(wall_map_id, wall_tile_index, xx, yy)
+				} else {
+					tilemap_set(wall_map_id, 16, xx, yy)
+				}
 			}
 		}
 	}

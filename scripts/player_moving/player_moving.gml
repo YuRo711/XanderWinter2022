@@ -10,6 +10,8 @@
 
 	if tilemap_get_at_pixel(collision_tilemap, bboxside + SpeedX, bboxtb) != 0 {
 		SpeedX = 0
+	}
+	if tilemap_get_at_pixel(collision_tilemap, bboxside, bboxtb + SpeedY) != 0 {
 		SpeedY = 0
 	}
 	else if tilemap_get_at_pixel(door_tilemap, bboxside + SpeedX, bboxtb) != 0 {
