@@ -8,12 +8,12 @@ function character_creation(){
 	door_tilemap = layer_tilemap_get_id("door_tiles")
 
 	if num == 0 {
-		for (var i = 30; i >= 0; i -= 1) {
+		for (var i = 45; i >= 0; i -= 1) {
 			global.pos_x[i] = x;
 			global.pos_y[i] = y;
 		}
 	}
 	
-	v = 2
+	v = 16
 	traits = []
 }

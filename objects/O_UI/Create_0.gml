@@ -1,5 +1,3 @@
-width = 64
-height = 108
 pos = 0
 visible = false
 

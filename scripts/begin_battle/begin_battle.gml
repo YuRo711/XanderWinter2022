@@ -5,7 +5,7 @@ function begin_battle(){
 	randomize()
 	
 	//Hide party
-	for (var i = 0; i < global.number; i++) {
+	for (var i = 0; i <= global.number; i++) {
 		instance_find(O_player, i).visible = false
 	}
 	
