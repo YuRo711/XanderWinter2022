@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "S_button",
-    "path": "sprites/S_button/S_button.yy",
+    "name": "S_button_attack",
+    "path": "sprites/S_button_attack/S_button_attack.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

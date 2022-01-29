@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "RoomGenerator",
-    "path": "folders/Scripts/RoomGenerator.yy",
+    "name": "Room Generator",
+    "path": "folders/Scripts/Room Generator.yy",
   },
   "resourceVersion": "1.0",
   "name": "generate_level",
