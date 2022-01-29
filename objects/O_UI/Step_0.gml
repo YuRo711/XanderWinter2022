@@ -7,6 +7,8 @@ if visible {
 			case 0:
 				visible = false
 				break
+			case 2:
+				game_end()
 		}
 	}
 }
