@@ -1,3 +1,4 @@
+
 function generate_traits(i){
 	var traits_num = array_length(ALL_TRAITS) - 1
 	enemies[i].traits[0] = ALL_TRAITS[irandom(traits_num)]
