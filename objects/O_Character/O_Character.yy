@@ -4,8 +4,16 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
+<<<<<<< Updated upstream:objects/O_Character/O_Character.yy
   "parentObjectId": null,
   "physicsObject": true,
+=======
+  "parentObjectId": {
+    "name": "O_battle_button_action",
+    "path": "objects/O_battle_button_action/O_battle_button_action.yy",
+  },
+  "physicsObject": false,
+>>>>>>> Stashed changes:objects/O_battle_button_attack/O_battle_button_attack.yy
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
