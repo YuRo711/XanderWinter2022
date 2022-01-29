@@ -29,6 +29,7 @@
     {"id":{"name":"S_character_3","path":"sprites/S_character_3/S_character_3.yy",},"order":2,},
     {"id":{"name":"TS_floor_tiles","path":"tilesets/TS_floor_tiles/TS_floor_tiles.yy",},"order":1,},
     {"id":{"name":"O_battle_control","path":"objects/O_battle_control/O_battle_control.yy",},"order":1,},
+    {"id":{"name":"O_dead_enemy","path":"objects/O_dead_enemy/O_dead_enemy.yy",},"order":9,},
     {"id":{"name":"S_button_attack","path":"sprites/S_button_attack/S_button_attack.yy",},"order":3,},
     {"id":{"name":"attack_mode","path":"scripts/attack_mode/attack_mode.yy",},"order":6,},
     {"id":{"name":"S_wall_tiles","path":"sprites/S_wall_tiles/S_wall_tiles.yy",},"order":0,},
