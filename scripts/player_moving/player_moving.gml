@@ -1,6 +1,10 @@
  function player_moving(){
 	 
-	 Control()
+	Control()
+	dir_right = (keyboard_check(vk_right) || keyboard_check(ord("D"))); 
+	dir_left = (keyboard_check(vk_left) || keyboard_check(ord("A"))); 
+	dir_up = (keyboard_check(vk_up) || keyboard_check(ord("W"))); 
+	dir_down = (keyboard_check(vk_down) || keyboard_check(ord("S"))); 
 
 	SpeedX = (dir_right - dir_left) * v 
 	SpeedY = (dir_down - dir_up) * v
@@ -19,6 +23,11 @@
 			generate_level()
 		}
 	}
+	if global.game_paused {
+		SpeedX = 0
+		SpeedY = 0
+	}
+	
 	x += SpeedX
 	y += SpeedY
 

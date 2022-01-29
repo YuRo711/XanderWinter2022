@@ -7,6 +7,7 @@
     {"id":{"name":"S_character_5","path":"sprites/S_character_5/S_character_5.yy",},"order":4,},
     {"id":{"name":"O_battle_button_action","path":"objects/O_battle_button_action/O_battle_button_action.yy",},"order":7,},
     {"id":{"name":"generate_traits","path":"scripts/generate_traits/generate_traits.yy",},"order":2,},
+    {"id":{"name":"O_UI","path":"objects/O_UI/O_UI.yy",},"order":12,},
     {"id":{"name":"attack_by_player","path":"scripts/attack_by_player/attack_by_player.yy",},"order":5,},
     {"id":{"name":"O_level","path":"objects/O_level/O_level.yy",},"order":0,},
     {"id":{"name":"S_character_1","path":"sprites/S_character_1/S_character_1.yy",},"order":0,},
@@ -14,6 +15,7 @@
     {"id":{"name":"Control","path":"scripts/Control/Control.yy",},"order":1,},
     {"id":{"name":"S_character_4","path":"sprites/S_character_4/S_character_4.yy",},"order":3,},
     {"id":{"name":"O_battle_button_character","path":"objects/O_battle_button_character/O_battle_button_character.yy",},"order":3,},
+    {"id":{"name":"S_menu","path":"sprites/S_menu/S_menu.yy",},"order":8,},
     {"id":{"name":"O_pointer","path":"objects/O_pointer/O_pointer.yy",},"order":10,},
     {"id":{"name":"TS_door_tiles","path":"tilesets/TS_door_tiles/TS_door_tiles.yy",},"order":2,},
     {"id":{"name":"traits_check","path":"scripts/traits_check/traits_check.yy",},"order":1,},
@@ -42,6 +44,7 @@
     {"id":{"name":"create_macros","path":"scripts/create_macros/create_macros.yy",},"order":0,},
     {"id":{"name":"S_floor_tiles","path":"sprites/S_floor_tiles/S_floor_tiles.yy",},"order":1,},
     {"id":{"name":"O_player","path":"objects/O_player/O_player.yy",},"order":3,},
+    {"id":{"name":"O_camera","path":"objects/O_camera/O_camera.yy",},"order":11,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
   ],
   "Options": [
@@ -59,8 +62,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R_battle_01","path":"rooms/R_battle_01/R_battle_01.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"R_battle_01","path":"rooms/R_battle_01/R_battle_01.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -81,7 +84,6 @@
     {"folderPath":"folders/Sprites/Characters.yy","order":5,"resourceVersion":"1.0","name":"Characters","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Battle.yy","order":4,"resourceVersion":"1.0","name":"Battle","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Items.yy","order":6,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts/Battle.yy","order":4,"resourceVersion":"1.0","name":"Battle","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
