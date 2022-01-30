@@ -9,5 +9,6 @@ which_action = noone;
 last_mov = noone;
 action_counter = global.number + 1;
 actors = [noone, noone, noone, noone];
+enemies_turn = false;
 begin_battle();
 first_enemy = enemies[0];
