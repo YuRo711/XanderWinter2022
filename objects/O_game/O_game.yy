@@ -27,7 +27,7 @@
     "path": "folders/Objects/Invisible hands.yy",
   },
   "resourceVersion": "1.0",
-  "name": "O_level",
+  "name": "O_game",
   "tags": [],
   "resourceType": "GMObject",
 }
