@@ -19,7 +19,8 @@ if (!enemies_turn) {
 			} else if (now_layer == 2 and button_pointer.purpose == "attack") {
 				attack_mode(button_pointer);
 				which_action = button_pointer;
-				button_pointer = first_enemy;
+				last_mov = "right";
+				button_pointer = enemies[0];
 				now_layer += 1;
 			} else if (now_layer == 3) {
 				attack_by_player(button_pointer, which_character.character);

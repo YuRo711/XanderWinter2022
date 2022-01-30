@@ -10,5 +10,5 @@ last_mov = noone;
 action_counter = global.number + 1;
 actors = [noone, noone, noone, noone];
 enemies_turn = false;
+cadaver_counter = 0;
 begin_battle();
-first_enemy = enemies[0];
