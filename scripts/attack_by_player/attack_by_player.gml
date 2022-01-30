@@ -1,5 +1,5 @@
-function attack_by_player(creature){
-	creature.hp -= global.acting.attack
+function attack_by_player(creature, agressor){
+	creature.hp -= agressor.attack
 	if creature.hp <= 0 {
 		if (creature.left_neighbour == creature) {
 			//win
@@ -9,6 +9,9 @@ function attack_by_player(creature){
 		cadaver.right_neighbour = creature.right_neighbour;
 		creature.right_neighbour.left_neighbour = cadaver;
 		creature.left_neighbour.right_neighbour = cadaver;
+		if (creature.ordinal_scale == 0) {
+			O_battle_control.first_enemy = cadaver;
+		}
 		instance_destroy(creature);
 		O_battle_control.button_pointer = cadaver;
 	}

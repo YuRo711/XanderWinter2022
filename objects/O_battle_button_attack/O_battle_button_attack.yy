@@ -7,9 +7,6 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsObject": true,
   "parentObjectId": {
     "name": "O_battle_button_action",
     "path": "objects/O_battle_button_action/O_battle_button_action.yy",
