@@ -15,6 +15,6 @@ function character_creation(){
 	}
 	
 	v = 16
-	traits = []
+	traits = ["traittest", "", "", "", ""]
 	global.party[num] = id
 }

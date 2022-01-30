@@ -7,9 +7,6 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsObject": true,
   "parentObjectId": {
     "name": "O_battle_button_action",
     "path": "objects/O_battle_button_action/O_battle_button_action.yy",
@@ -33,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "O_battle_button_attack",
