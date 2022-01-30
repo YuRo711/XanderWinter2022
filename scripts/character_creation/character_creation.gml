@@ -16,4 +16,5 @@ function character_creation(){
 	
 	v = 16
 	traits = []
+	global.party[num] = id
 }
