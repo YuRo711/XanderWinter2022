@@ -45,6 +45,7 @@
     {"id":{"name":"S_character_6","path":"sprites/S_character_6/S_character_6.yy",},"order":5,},
     {"id":{"name":"S_wall_tiles","path":"sprites/S_wall_tiles/S_wall_tiles.yy",},"order":0,},
     {"id":{"name":"begin_battle","path":"scripts/begin_battle/begin_battle.yy",},"order":0,},
+    {"id":{"name":"end_of_attack","path":"scripts/end_of_attack/end_of_attack.yy",},"order":9,},
     {"id":{"name":"create_macros","path":"scripts/create_macros/create_macros.yy",},"order":0,},
     {"id":{"name":"S_floor_tiles","path":"sprites/S_floor_tiles/S_floor_tiles.yy",},"order":1,},
     {"id":{"name":"O_player","path":"objects/O_player/O_player.yy",},"order":3,},

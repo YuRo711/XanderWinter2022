@@ -22,12 +22,7 @@ if (dir_left) {
 			now_layer += 1;
 		} else if (now_layer == 3) {
 			attack_by_player(button_pointer, which_character.character);
-			which_character.used_in_round = true;
-			button_pointer = which_character;
-			which_character = noone;
-			which_action = noone;
-			action_counter -= 1;
-			now_layer = 1;
+			end_of_attack();
 		}
 	}
 	if (action_counter == 0) {
