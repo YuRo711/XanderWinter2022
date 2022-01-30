@@ -6,6 +6,7 @@ if visible {
 		switch pos {
 			case 0:
 				visible = false
+				global.game_paused = false
 				break
 			case 2:
 				game_end()

@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"O_character_list","path":"objects/O_character_list/O_character_list.yy",},"order":5,},
+    {"id":{"name":"O_initializer","path":"objects/O_initializer/O_initializer.yy",},"order":18,},
     {"id":{"name":"character_creation","path":"scripts/character_creation/character_creation.yy",},"order":3,},
     {"id":{"name":"O_party_bar","path":"objects/O_party_bar/O_party_bar.yy",},"order":0,},
     {"id":{"name":"O_battle_button_attack","path":"objects/O_battle_button_attack/O_battle_button_attack.yy",},"order":2,},
@@ -75,8 +76,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R_battle_01","path":"rooms/R_battle_01/R_battle_01.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"R_battle_01","path":"rooms/R_battle_01/R_battle_01.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

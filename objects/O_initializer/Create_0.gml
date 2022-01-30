@@ -1,0 +1,1 @@
+global.party = [noone, noone, noone, noone];
