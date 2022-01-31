@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"O_character_list","path":"objects/O_character_list/O_character_list.yy",},"order":4,},
+    {"id":{"name":"O_items","path":"objects/O_items/O_items.yy",},"order":6,},
     {"id":{"name":"O_initializer","path":"objects/O_initializer/O_initializer.yy",},"order":18,},
     {"id":{"name":"character_creation","path":"scripts/character_creation/character_creation.yy",},"order":3,},
     {"id":{"name":"O_party_bar","path":"objects/O_party_bar/O_party_bar.yy",},"order":5,},
