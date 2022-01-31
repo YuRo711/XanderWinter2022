@@ -9,6 +9,7 @@ function generate_level() {
 	else if (new_door == 2) global.new_door = EAST
 	else                    global.new_door = WEST
 
+
 	//Get the tile level map ID
 	var wall_map_id = layer_tilemap_get_id(layer_get_id("wall_tiles"))
 	var floor_map_id = layer_tilemap_get_id(layer_get_id("floor_tiles"))
@@ -16,12 +17,15 @@ function generate_level() {
 	width = room_width div CELL_WIDTH
 	height = room_height div CELL_HEIGHT
 	grid = ds_grid_create(width, height)
+	
+	//Clear
 	for (var xx = 0; xx < width; xx += 1) {
 		for (var yy = 0; yy < height; yy += 1) {
 			grid[xx, yy] = VOID
 			tilemap_set(wall_map_id, 0, xx, yy)
 		}
 	}
+	instance_deactivate_object(O_item)
 
 	//Create the controller
 	var controller_x = width div 2
@@ -57,6 +61,7 @@ function generate_level() {
 	}
 	
 	generate_doors()
+	generate_items()
 
 	//Draw the tiles 
 	for (var xx = 0; xx < width ; xx++) {
@@ -66,6 +71,11 @@ function generate_level() {
 			}
 			else if grid[xx, yy] == DOOR {
 				tilemap_set(door_map_id, 1, xx, yy)
+			}
+			else if grid[xx, yy] == ITEM {
+				tilemap_set(floor_map_id, 1, xx, yy)
+				item = instance_create_layer(xx*CELL_WIDTH, yy*CELL_HEIGHT, "Instances", O_item)
+				item_creation(item)
 			}
 			else {
 				tilemap_set(wall_map_id, 1, xx, yy)
