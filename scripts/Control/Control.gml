@@ -6,4 +6,5 @@ function Control(){
 	click_enter = (keyboard_check_pressed(vk_enter)); 
 	click_backspace = (keyboard_check_pressed(vk_backspace)); 
 	click_k = (keyboard_check_pressed(ord("K"))); 
+	click_o = (keyboard_check_pressed(ord("O"))); 
 }	

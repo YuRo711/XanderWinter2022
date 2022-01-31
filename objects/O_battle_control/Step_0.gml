@@ -16,21 +16,33 @@ if (!enemies_turn) {
 				which_character = button_pointer;
 				button_pointer = first_action;
 				now_layer += 1;
-			} else if (now_layer == 2 and button_pointer.purpose == "attack") {
-				attack_mode(button_pointer);
-				which_action = button_pointer;
-				last_mov = "right";
-				button_pointer = enemies[0];
-				now_layer += 1;
+			} else if (now_layer == 2) {
+				if (button_pointer.purpose == "attack") {
+					attack_mode(button_pointer);
+					which_action = button_pointer;
+					button_pointer = enemies[0];
+					now_layer += 1;
+				} else if (button_pointer.purpose == "dismoral") {
+					mental_attack_mode();
+					which_action = button_pointer;
+					button_pointer = enemies[0];
+					now_layer += 1;
+				}
 			} else if (now_layer == 3) {
-				attack_by_player(button_pointer, which_character.character);
-				end_of_attack();
+				if (global.action == ATTACK) {
+					attack_by_player(button_pointer, which_character.character);
+					end_of_attack();
+				} else if (global.action == DISMORALE) {
+					mental_attack_by_player(button_pointer, which_character.character);
+					end_of_attack();
+				}
 			}
 		}
 		if (action_counter == 0) {
 			enemies_turn = true;
 			instance_create_depth(0, 0, 0, O_enemy_turn);
 		}
+		last_mov = "right";
 	} if (click_backspace) {
 		if (now_layer > min_layer) {
 			if (now_layer == 2) {
@@ -44,7 +56,10 @@ if (!enemies_turn) {
 			}
 			now_layer -= 1;
 		}
+		last_mov = "right";
 	} if (click_k) {
 		end_of_battle();
+	} if (click_o) {
+		
 	}
 }
