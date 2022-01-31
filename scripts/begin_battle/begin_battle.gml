@@ -1,7 +1,7 @@
 function begin_battle(){
 	
 	ALL_TRAITS = ["kind", "cruel", "brave", "coward", "selfless", "stubborn", "compliant", "weak", 
-		"fragile"]
+		"fragile", "strong"]
 	randomize()
 	
 	//Hide party
@@ -19,6 +19,7 @@ function begin_battle(){
 		newX += 256;
 		enemies[i].ordinal_scale = i;
 		//generate_traits(i)
+		traits_realization(enemies[i])
 		enemies[i].sprite_index = asset_get_index("S_character_" + string(irandom_range(1, 3)))
 	}
 	for (var i = 0; i < enemies_number; i += 1) {

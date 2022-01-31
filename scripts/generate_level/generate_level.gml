@@ -68,18 +68,7 @@ function generate_level() {
 				tilemap_set(door_map_id, 1, xx, yy)
 			}
 			else {
-				if xx != 0 && xx != width - 1 && yy != 0 && yy != height - 1
-				{
-					var north_tile = (grid[xx, yy-1] == VOID)
-					var south_tile = (grid[xx, yy+1] == VOID)
-					var east_tile = (grid[xx+1, yy] == VOID)
-					var west_tile = (grid[xx-1, yy] == VOID)
-			
-					var wall_tile_index = 1 + NORTH*north_tile + SOUTH*south_tile + EAST*east_tile + WEST*west_tile
-					tilemap_set(wall_map_id, wall_tile_index, xx, yy)
-				} else {
-					tilemap_set(wall_map_id, 16, xx, yy)
-				}
+				tilemap_set(wall_map_id, 1, xx, yy)
 			}
 		}
 	}
