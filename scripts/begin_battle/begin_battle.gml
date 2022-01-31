@@ -26,5 +26,4 @@ function begin_battle(){
 		enemies[i].left_neighbour = enemies[(i - 1 + enemies_number) % enemies_number];
 		enemies[i].right_neighbour = enemies[(i + 1 + enemies_number) % enemies_number];
 	}
-	O_battle_control.first_enemy = enemies[0];
 }

@@ -44,5 +44,7 @@ if (!enemies_turn) {
 			}
 			now_layer -= 1;
 		}
-	} 
+	} if (click_k) {
+		end_of_battle();
+	}
 }

@@ -5,4 +5,5 @@ function Control(){
 	dir_down = (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))); 
 	click_enter = (keyboard_check_pressed(vk_enter)); 
 	click_backspace = (keyboard_check_pressed(vk_backspace)); 
+	click_k = (keyboard_check_pressed(ord("K"))); 
 }	
