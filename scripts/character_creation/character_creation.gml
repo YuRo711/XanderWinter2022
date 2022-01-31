@@ -3,6 +3,7 @@ function character_creation(){
 	if !variable_global_exists("number") global.number = 0
 	else global.number += 1
 	num = global.number
+	global.party[num] = id
 	
 	collision_tilemap = layer_tilemap_get_id("wall_tiles")
 	door_tilemap = layer_tilemap_get_id("door_tiles")
@@ -15,6 +16,5 @@ function character_creation(){
 	}
 	
 	v = 16
-	traits = ["traittest", "", "", "", ""]
-	global.party[num] = id
+	traits = ["strong", "", "", "", ""]
 }
