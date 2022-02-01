@@ -23,17 +23,12 @@ if (!enemies_turn) {
 					button_pointer = enemies[0];
 					now_layer += 1;
 				} else if (button_pointer.purpose == "dismoral") {
-					mental_attack_mode();
-					which_action = button_pointer;
-					button_pointer = enemies[0];
-					now_layer += 1;
+					mental_attack_by_player(which_character.character);
+					end_of_attack();
 				}
 			} else if (now_layer == 3) {
 				if (global.action == ATTACK) {
 					attack_by_player(button_pointer, which_character.character);
-					end_of_attack();
-				} else if (global.action == DISMORALE) {
-					mental_attack_by_player(button_pointer, which_character.character);
 					end_of_attack();
 				}
 			}

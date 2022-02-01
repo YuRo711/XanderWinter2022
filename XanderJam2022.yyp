@@ -72,7 +72,7 @@
     {"id":{"name":"O_game","path":"objects/O_game/O_game.yy",},"order":12,},
     {"id":{"name":"O_player","path":"objects/O_player/O_player.yy",},"order":1,},
     {"id":{"name":"O_camera","path":"objects/O_camera/O_camera.yy",},"order":11,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":6,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -112,7 +112,7 @@
     {"folderPath":"folders/Scripts/Battle.yy","order":4,"resourceVersion":"1.0","name":"Battle","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Items.yy","order":6,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Buttons.yy","order":6,"resourceVersion":"1.0","name":"Buttons","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts/Items.yy","order":6,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Items.yy","order":5,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/UI.yy","order":8,"resourceVersion":"1.0","name":"UI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Tiles.yy","order":10,"resourceVersion":"1.0","name":"Tiles","tags":[],"resourceType":"GMFolder",},
   ],
