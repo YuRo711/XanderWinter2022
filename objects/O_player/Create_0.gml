@@ -1,7 +1,3 @@
-for (var i = 0; i < 360; i += 1) {
-	global.pos_x[i] = x
-	global.pos_y[i] = y
-}
 character_creation()
 battle_char_creation()
 if room == Room1 {

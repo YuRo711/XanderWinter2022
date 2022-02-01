@@ -3,3 +3,4 @@
 #macro SPEAK 92
 #macro DEFEND 93
 #macro DISMORALE 94
+#macro RECRUITMENT 95
