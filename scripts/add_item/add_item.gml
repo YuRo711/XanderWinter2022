@@ -4,10 +4,11 @@
 #macro OTHER 43
 
 function add_item(item_id){
-	
 	if variable_global_exists("items") {
-		global.items[array_length(global.items)] = item_id
+		var j = array_length(global.items)
+		global.items[j] = item_id
 	} else {
 		global.items[0] = item_id
 	}
+	item_id.out = false
 }
