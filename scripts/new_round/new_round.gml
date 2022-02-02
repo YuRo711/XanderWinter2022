@@ -6,4 +6,5 @@ function new_round(){
 			O_battle_control.actors[i].used_in_round = false;
 		}
 	}
+	O_log.text = "* Your turn!";
 }
