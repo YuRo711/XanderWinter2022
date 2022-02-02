@@ -9,5 +9,8 @@ function equating(influencer, changeable){
 	changeable.speech = influencer.speech;
 	changeable.defence = influencer.defence;
 	changeable.healing = influencer.healing;
-	changeable.traits = influencer.traits;
+	for (var i = 0; i < 5; i++) {
+		changeable.traits[i] = influencer.traits[i];
+	}
+	//changeable.traits = influencer.traits;
 }

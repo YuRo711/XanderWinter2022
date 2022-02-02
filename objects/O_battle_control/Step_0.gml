@@ -14,7 +14,8 @@ if (!enemies_turn) {
 		if (now_layer <= max_layer) {
 			if (now_layer == 1) {
 				if (global.action == RECRUITMENT) {
-					//smth
+					attack_by_enemy(button_pointer, O_god);
+					recruitment(which_enemy, O_god);
 				} else if (global.action == noone and !button_pointer.used_in_round) {
 					which_character = button_pointer;
 					button_pointer = first_action;
