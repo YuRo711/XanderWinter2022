@@ -11,4 +11,5 @@ function add_item(item_id){
 		global.items[0] = item_id
 	}
 	item_id.out = false
+	global.items_num++
 }

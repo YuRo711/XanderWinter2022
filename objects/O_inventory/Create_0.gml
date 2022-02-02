@@ -1,3 +1,3 @@
 visible = false
-op_space = 20
-pos = 0 
+op_space = 64
+pos = 0

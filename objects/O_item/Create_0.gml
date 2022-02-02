@@ -1,2 +1,3 @@
 type = OTHER
-out = true
+out = true 
+power_lv = 0

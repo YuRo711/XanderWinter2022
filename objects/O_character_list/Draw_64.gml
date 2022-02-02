@@ -10,5 +10,11 @@ if visible {
 		draw_text_transformed(view_wport[0] / 2 - 64, view_hport[0] / 2 - 192 + op_space*i, 
 			char.traits[i], 2, 2, 1)
 	}
+	draw_text_transformed(view_wport[0] / 2 - 310, view_hport[0] / 2 + 64, 
+		"HP: " + string(char.hp) + "/" + string(char.max_hp), 2, 2, 1)
+	draw_text_transformed(view_wport[0] / 2 - 310, view_hport[0] / 2 + 96, 
+		"Attack: " + string(char.attack), 2, 2, 1)
+	draw_text_transformed(view_wport[0] / 2 - 310, view_hport[0] / 2 + 128, 
+		"Defence: " + string(char.defence), 2, 2, 1)
 }
 
