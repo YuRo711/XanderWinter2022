@@ -27,11 +27,13 @@ function recruitment(creature, agressor){
 			O_battle_control.now_layer = 1;
 			attack_deactivate();
 		} else {
+			O_log.text = "Who do you want to kick out?";
 			O_battle_control.now_layer = 1;
 			O_battle_control.button_pointer = O_battle_control.actors[0];
 		}
 	} else {
 		global.action = noone;
+		O_log.text = "The character " + string(agressor.num + 1) + " was unable to recruit a enemy " + string(creature.ordinal_scale + 1) + ".";
 		end_of_attack();
 	}
 }

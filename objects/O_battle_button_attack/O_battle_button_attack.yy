@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "S_button_attack",
-    "path": "sprites/S_button_attack/S_button_attack.yy",
+    "name": "S_button_action",
+    "path": "sprites/S_button_action/S_button_action.yy",
   },
   "solid": false,
   "visible": true,

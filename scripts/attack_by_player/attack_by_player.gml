@@ -1,5 +1,6 @@
 function attack_by_player(creature, agressor){
-	creature.hp -= agressor.attack
+	creature.hp -= agressor.attack;
+	O_log.text = "* Character " + string(agressor.num + 1) + " dealt " + string(agressor.attack) + " damage to the enemy " + string(creature.ordinal_scale + 1) + ".";
 	if creature.hp <= 0 {
 		cadaver = instance_create_depth(creature.x, creature.y, 0, O_dead_enemy);
 		cadaver.left_neighbour = creature.left_neighbour;

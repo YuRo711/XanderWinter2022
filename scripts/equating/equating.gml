@@ -12,5 +12,4 @@ function equating(influencer, changeable){
 	for (var i = 0; i < 5; i++) {
 		changeable.traits[i] = influencer.traits[i];
 	}
-	//changeable.traits = influencer.traits;
 }

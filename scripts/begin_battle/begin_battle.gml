@@ -13,7 +13,7 @@ function begin_battle(){
 	enemies_number = irandom_range(max(1, global.number - 1), min(4, global.number + 1))
 	enemies = []
 	var newX = 200;
-	var newY = 100;
+	var newY = 20;
 	for (var i = 0; i < enemies_number; i += 1) {
 		enemies[i] = instance_create_layer(newX, newY, "Instances", O_enemy)
 		newX += 256;

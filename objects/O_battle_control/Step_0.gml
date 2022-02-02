@@ -46,8 +46,8 @@ if (!enemies_turn) {
 			}
 		}
 		if (action_counter == 0) {
+			alarm[0] = 100;
 			enemies_turn = true;
-			instance_create_depth(0, 0, 0, O_enemy_turn);
 		}
 		last_mov = "right";
 	} if (click_backspace) {
