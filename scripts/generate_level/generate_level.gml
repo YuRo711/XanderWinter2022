@@ -62,6 +62,8 @@ function generate_level() {
 	
 	generate_doors()
 	generate_items()
+	generate_items()
+	generate_items()
 
 	//Draw the tiles 
 	for (var xx = 0; xx < width ; xx++) {
@@ -82,5 +84,7 @@ function generate_level() {
 			}
 		}
 	}
+	
+	instance_find(O_player, 0).alarm[0] = irandom_range(1000, 2000)
 	
 }
