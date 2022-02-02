@@ -8,6 +8,4 @@ function battle_char_creation(traits){
 	speech = 3;
 	defence = 0
 	healing = 0
-	attack_bonus = 0
-	defence_bonus = 0
 }

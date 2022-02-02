@@ -33,7 +33,7 @@ function recruitment(creature, agressor){
 		}
 	} else {
 		global.action = noone;
-		O_log.text = "The character " + string(agressor.num + 1) + " was unable to recruit a enemy" + string(creature.ordinal_scale + 1);
+		O_log.text = "The character " + string(agressor.num + 1) + " was unable to recruit a enemy " + string(creature.ordinal_scale + 1) + ".";
 		end_of_attack();
 	}
 }
