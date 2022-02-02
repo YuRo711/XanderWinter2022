@@ -5,6 +5,7 @@ min_layer = noone;
 max_layer = noone; 
 which_character = noone;
 which_action = noone;
+which_enemy = noone;
 last_mov = "right";
 action_counter = global.number + 1;
 actors = [noone, noone, noone, noone];

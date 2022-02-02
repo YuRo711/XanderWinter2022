@@ -10,4 +10,4 @@ for (var i = 0; i <= global.number; i++) {
 	draw_healthbar(view_wport[0] / 2 - 248 + 128 * i, view_hport[0] - 24,
 	view_wport[0] / 2 - 136 + 128 * i, view_hport[0] - 8, global.party[i].hp / global.party[i].max_hp * 100,
 	c_black, c_red, c_green, 0, true, true)
-} 
+}

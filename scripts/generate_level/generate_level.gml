@@ -62,6 +62,8 @@ function generate_level() {
 	
 	generate_doors()
 	generate_items()
+	generate_items()
+	generate_items()
 
 	//Draw the tiles 
 	for (var xx = 0; xx < width ; xx++) {

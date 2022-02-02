@@ -5,6 +5,9 @@ function battle_char_creation(traits){
 	max_mp = 10;
 	attack = 1;
 	mental_attack = 1;
+	speech = 3;
 	defence = 0
 	healing = 0
+	attack_bonus = 0
+	defence_bonus = 0
 }

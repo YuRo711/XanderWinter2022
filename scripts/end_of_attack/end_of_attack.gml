@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function end_of_attack(){
 	O_battle_control.which_character.used_in_round = true;
 	O_battle_control.button_pointer = O_battle_control.which_character;

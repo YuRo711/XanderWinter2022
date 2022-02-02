@@ -12,10 +12,14 @@ if (!enemies_turn) {
 		}
 	} if (click_enter) {
 		if (now_layer <= max_layer) {
-			if (now_layer == 1 and !button_pointer.used_in_round) {
-				which_character = button_pointer;
-				button_pointer = first_action;
-				now_layer += 1;
+			if (now_layer == 1) {
+				if (global.action == RECRUITMENT) {
+					//smth
+				} else if (global.action == noone and !button_pointer.used_in_round) {
+					which_character = button_pointer;
+					button_pointer = first_action;
+					now_layer += 1;
+				}
 			} else if (now_layer == 2) {
 				if (button_pointer.purpose == "attack") {
 					attack_mode(button_pointer);
@@ -23,7 +27,10 @@ if (!enemies_turn) {
 					button_pointer = enemies[0];
 					now_layer += 1;
 				} else if (button_pointer.purpose == "dismoral") {
-					mental_attack_mode();
+					mental_attack_by_player(which_character.character);
+					end_of_attack();
+				} else if (button_pointer.purpose == "recruitment") {
+					recruitment_mode();
 					which_action = button_pointer;
 					button_pointer = enemies[0];
 					now_layer += 1;
@@ -32,9 +39,8 @@ if (!enemies_turn) {
 				if (global.action == ATTACK) {
 					attack_by_player(button_pointer, which_character.character);
 					end_of_attack();
-				} else if (global.action == DISMORALE) {
-					mental_attack_by_player(button_pointer, which_character.character);
-					end_of_attack();
+				} else if (global.action == RECRUITMENT) {
+					recruitment(button_pointer, which_character.character);
 				}
 			}
 		}
